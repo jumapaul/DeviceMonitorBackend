@@ -313,5 +313,6 @@ git clone git@github.com:jumapaul/DeviceMonitorBackend.git
 ```
 docker compose up -d
 ```
+- Pass the Database username and password as environment files with the name `POSTGRES_USERNAME` and `POSTGRES_PASSWORD` respectively.
 
 - Run the application.
