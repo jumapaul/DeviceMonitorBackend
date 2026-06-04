@@ -16,6 +16,7 @@ import java.util.UUID;
 @EntityListeners(AuditingEntityListener.class)
 @Getter
 @Setter
+@Table(name = "device_entity")
 public class DeviceEntity {
 
     @Id

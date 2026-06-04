@@ -13,6 +13,7 @@ import java.util.UUID;
 @Builder
 @Getter
 @Setter
+@Table(name = "report_outer_box")
 public class ReportOuterBox {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
